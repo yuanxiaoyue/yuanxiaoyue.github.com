@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>js实现点击按钮变换背景颜色</title>
+<script type="text/javascript">
+function aa(){
+document.bgColor="Orange";
+}
+
+
+function change(c){
+document.bgColor=c;
+}
+</script>
+</head>
+
+
+<body onload="aa()">
+<input type="button" value="橙色" onclick="change('Orange')"/>
+<input type="button" value="粉色" onclick="change('pink')"/>
+<input type="button" value="绿色" onclick="change('green')"/>
+
+<br /><br/>
+
+</body>
+</html>

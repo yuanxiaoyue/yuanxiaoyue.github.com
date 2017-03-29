@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-24 08:51:01
+ * @version $Id$
+ */
+
+.box{
+	width:100px;
+	height:50px;
+	margin:50px;
+	background:#ff0000;
+
+}
+span.before{
+	display:block;
+	width:20px;
+	height:20px;
+	background:#666;
+	content:'$';
+	margin-right:5px;
+	font-size:24px;
+	font-weight:600px;
+	color:#ff6600;
+}
+.box.trg{
+	width:0;
+	height: 0;
+	border:10px transparent solid;
+
+}
