@@ -1,3 +1,10 @@
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-10 22:11:11
+ * @version $Id$
+ */
+
 //part one
 var map = new BMap.Map("myMap"); 
 var point = new BMap.Point(120.15,30.25);
